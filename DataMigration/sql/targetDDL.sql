@@ -1,0 +1,7 @@
+CREATE TABLE `mysql_table` (
+  `HSTR_SEQNO` int(10) NOT NULL,
+  `TX_DTTM` varchar(16) NOT NULL,
+  `CSTNO` varchar(16) DEFAULT NULL,
+  `DATA_CTNT` varchar(4000) DEFAULT NULL,
+  PRIMARY KEY (`HSTR_SEQNO`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
